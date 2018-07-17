@@ -1,11 +1,9 @@
-# ESP8266-RESTful-leds
+# ESP8266 NodeMCU v3 - rgb led
 
-![Alt text](./public/img/project.JPG)
-
-Resistors = 330 Ohm
+Resistors = 1K Ohm * 3
 
 Outputs = {
-    blue-led: 12,
-    red-led: 13,
-    button: 0
+    r: D7,
+    g: D6,
+    b: D5
 }
