@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LED CHOOSER</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<link href="/stylesheets/jqColor.css" media="all" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
+
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+</head>
+<body>
+	<h1>RGB colors</h1>
+
+
+	<div class='container'>
+		<button onclick="changeColor('red')">red</button>
+		<button onclick="changeColor('green')">green</button>
+		<button onclick="changeColor('blue')">blue</button>
+		<br>
+
+		<input class="color" value="rgb(162, 63, 3)" />
+
+		<!-- <button onclick="$colors.colorPicker('destroy')">destroy</button> -->
+		<script type="text/javascript" src="/js/colorpicker/colors.js"></script>
+		<script type="text/javascript" src="/js/colorpicker/colorPicker.data.js"></script>
+		<script type="text/javascript" src="/js/colorpicker/colorPicker.js"></script>
+
+		<!-- <script type="text/javascript" src="../color.all.min.js"></script> -->
+
+		<script type="text/javascript" src="/js/colorpicker/jqColor.js"></script>
+		<script type="text/javascript" src="/js/script.js"></script>
+
+		<!-- <script type="text/javascript" src="jQueryColorPicker.min.js"></script> -->
+
+
+	</div>
+
+</body>
+</html>
